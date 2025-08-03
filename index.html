@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio das Cores</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="telaInicial" class="tela principal">
+        <h1>Desafio das Cores</h1>
+        <p>Digite seu nome para iniciar o jogo:</p>
+        <input type="text" id="entradaNomeJogador" placeholder="Digite seu nome">
+        <button id="botaoIniciar">Iniciar Jogo</button>
+    </div>
+
+    <div id="telaJogo" class="tela">
+        <div id="infoJogo">
+            <p>Cor: <span id="avisoCor"></span></p>
+            <p>Tempo: <span id="tempoRestante"></span></p>
+            <p>Pontuação: <span id="pontuacao">0</span></p>
+        </div>
+        <div id="gradeCores"></div>
+    </div>
+
+    <div id="telaFinal" class="tela">
+        <h1>Fim de Jogo</h1>
+        <p>Jogador: <span id="nomeJogadorFinal"></span></p>
+        <p>Pontuação Final: <span id="pontuacaoFinal"></span></p>
+        <button id="botaoJogarNovamente">Jogar Novamente</button>
+        <div id="ranking">
+            <h2>Ranking</h2>
+            <ol id="listaRanking"></ol>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
