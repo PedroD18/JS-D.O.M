@@ -11,7 +11,7 @@ O jogo consiste em identificar a cor correta em uma grade 3x3 dentro de um limit
 
 ● Como Executar
 1. Clone ou baixe o repositório.
-2. Abra o arquivo index.html em um navegador web acessando o link 
+2. Abra o arquivo index.html em um navegador web acessando o link https://jogodascoresdom.netlify.app/
 
 ● Licença
-Licença MIT
+MIT
