@@ -1,21 +1,20 @@
+const telaInicial = document.getElementById('tela-Inicial'); 
+const telaJogo = document.getElementById('tela-Jogo'); 
+const telaFinal = document.getElementById('tela-Final'); 
 
-const telaInicial = document.getElementById('telaInicial'); 
-const telaJogo = document.getElementById('telaJogo'); 
-const telaFinal = document.getElementById('telaFinal'); 
+const entradaNomeJogador = document.getElementById('entrada-Nome-Jogador'); 
+const botaoIniciar = document.getElementById('botao-Iniciar'); 
+const botaoJogarNovamente = document.getElementById('botao-Jogar-Novamente');   
+const botaoVoltar = document.getElementById('botao-Voltar'); 
 
-const entradaNomeJogador = document.getElementById('entradaNomeJogador'); 
-const botaoIniciar = document.getElementById('botaoIniciar'); 
-const botaoJogarNovamente = document.getElementById('botaoJogarNovamente');   
-const botaoVoltar = document.getElementById('botaoVoltar'); 
-
-const avisoCor = document.getElementById('avisoCor'); 
-const tempoRestanteDisplay = document.getElementById('tempoRestante'); 
+const avisoCor = document.getElementById('aviso-Cor'); 
+const tempoRestanteDisplay = document.getElementById('tempo-Restante'); 
 const pontuacaoDisplay = document.getElementById('pontuacao'); 
-const gradeCores = document.getElementById('gradeCores'); 
+const gradeCores = document.getElementById('grade-Cores'); 
 
-const nomeJogadorFinal = document.getElementById('nomeJogadorFinal'); 
-const pontuacaoFinalDisplay = document.getElementById('pontuacaoFinal'); 
-const listaRanking = document.getElementById('listaRanking'); 
+const nomeJogadorFinal = document.getElementById('nome-Jogador-Final'); 
+const pontuacaoFinalDisplay = document.getElementById('pontuacao-Final'); 
+const listaRanking = document.getElementById('lista-Ranking'); 
 
 const totalQuadrados = 9; 
 const duracaoJogo = 45; 
